@@ -1,0 +1,46 @@
+/* Nick Bashour - January 24, 2022 - CS 142 */
+
+body {
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;        
+    min-height: 100vh;
+    margin: 0;
+}
+
+div.oddBox {
+    height: 100px;
+    width: 100px;
+    background-color: #dfe1e7;
+    border-top: solid 1px #687291;
+    text-align: center;
+    margin: 0;
+}
+
+div.evenBox {
+    height: 100px;
+    width: 100px;
+    background-color: #eeeff2;
+    border-top: solid 1px #687291;
+    text-align: center;
+    margin: 0;
+}
+
+div.fBox {
+    height: 100px;
+    width: 100px;
+    background-color: #687291;
+    border: solid black 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
